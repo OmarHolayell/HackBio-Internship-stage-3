@@ -3,7 +3,7 @@
 # Web Application Link: [Cholera Data Insights](https://choleradatainsights.shinyapps.io/solve/)
 
 # Loading required libraries:
-library(shinythemes)     # For applying themes to the Shiny app
+''' library(shinythemes)     # For applying themes to the Shiny app
 
 library(leaflet)         # For creating interactive maps
 
@@ -33,4 +33,4 @@ TotalCases = sum(Cases, na.rm = TRUE),
 TotalFatalities = sum(Fatalities, na.rm = TRUE),
 Longitude = mean(Longitude, na.rm = TRUE),
 Latitude = mean(Latitude, na.rm = TRUE)
-)
+) '''
