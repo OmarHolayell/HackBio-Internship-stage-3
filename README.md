@@ -1,8 +1,9 @@
-# HackBio-Internship-stage-3
-# Cholera Data Insights (R Shiny web application)
+### HackBio-Internship-stage-3
+## Cholera Data Insights (R Shiny web application)
 # Web Application Link: [Cholera Data Insights](https://choleradatainsights.shinyapps.io/solve/)
 
-# Loading required libraries:
+### Loading required libraries:
+```r
 library(shinythemes)     # For applying themes to the Shiny app
 
 library(leaflet)         # For creating interactive maps
@@ -34,5 +35,5 @@ country_summary <- my_data_df %>%
     Longitude = mean(Longitude, na.rm = TRUE),
     Latitude = mean(Latitude, na.rm = TRUE)
   )
-
+r```
 
