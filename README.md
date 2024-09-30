@@ -35,5 +35,6 @@ country_summary <- my_data_df %>%
     Longitude = mean(Longitude, na.rm = TRUE),
     Latitude = mean(Latitude, na.rm = TRUE)
   )
-
+```
 # UI (User Interface) part of the app
+
